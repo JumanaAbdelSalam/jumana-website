@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li { 
+list-style: none;
+}
+.container{
+    margin: 20px auto;
+    width: 1000px;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+}
+.nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.home-design{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+.about-design{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+.blog-design{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+.contact-design{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+.btn2{
+    display: inline-block;
+   margin-bottom: 100px;
+    background-color: rgb(68,40,237);
+    padding: 10px;
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+}
+.btn2 :hover {
+   background-color:hsl(5, 85%, 63%) ; 
+}
+.right img{
+    margin-left: 80%;
+    margin-bottom: 10%;
+}
+.left{
+    flex: 1
+}
+.right{
+    flex: 1;
+}
+.left{
+    margin-left: 150px;
+}
+.main-description{
+    font-size: 42px;
+}
+.title-complete{
+    font-size: 24px;
+    margin-left: 170px;
+}
+.container-subtitle p{
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 300px;
+    font-size: 20px;
+    font-style: italic;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    
+}
