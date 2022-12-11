@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+background-color:rgb(243, 235,212);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li { 
+list-style: none;
+}
+.container{
+    margin: 40px auto;
+    width: 1440px;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+}
+.header img{
+    width: 121px ;
+    height:38px;
+}
+.header li{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.main{
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+.design{
+    display: flex;
+}
+.img-design img{
+    width: 550px;
+    height: 400px;
+    margin-right: 150px;
+}
+.paragraph-design p{
+    background-color: rgb(136, 139, 139);
+    color: hsl(0, 0%, 3%);
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    font-size: 18px;
+    margin-left: 200px ;
+}
+.btn2{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(68,40,237);
+    padding: 10px;
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+    margin-left: 80%;
+}
+.btn2 :hover {
+   background-color:hsl(5, 85%, 63%) ; 
+}
+.btn3{
+    display: inline-block;
+    margin-bottom: 50px;
+    background-color: rgb(68,40,237);
+    padding: 10px;
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+    margin-left: 120px;
+}
+.btn3 :hover {
+   background-color:hsl(5, 85%, 63%) ; 
+}
+
+
+
+

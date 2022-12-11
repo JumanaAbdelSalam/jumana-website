@@ -6,7 +6,7 @@
 
 
 body {
-
+background-color:rgb(243, 235,212);
 }
 a {
     text-decoration: none;
@@ -16,80 +16,60 @@ li {
 list-style: none;
 }
 .container{
-    margin: 20px auto;
-    width: 1000px;
+    margin: 40px auto;
+    width: 1440px;
 }
 .header{
     display: flex;
     justify-content:space-between ;
     align-items:center ;
 }
+.header img{
+    width: 121px ;
+    height:38px;
+}
+.header li{
+    background-color: rgb(136,139,139);
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+    text-align: center;
+}
+
 .nav{
     display: flex;
     width: 400px;
     justify-content: space-between;
 }
-.home-design{
-    background-color: rgb(136,139,139);
-    color:hsl(36, 100%, 99%);
-    padding: 10px;
-    text-align: center;
+.design{
+    display: flex;
 }
-.about-design{
-    background-color: rgb(136,139,139);
-    color:hsl(36, 100%, 99%);
-    padding: 10px;
-    text-align: center;
+.img-design img{
+    width: 550px;
+    height: 400px;
+margin-left: 200px;
 }
-.blog-design{
-    background-color: rgb(136,139,139);
-    color:hsl(36, 100%, 99%);
-    padding: 10px;
-    text-align: center;
+.text-design{
+ width: 649px;
+ height: 150px;
+ margin-top:250px;
+ left: 53px;
 }
-.contact-design{
-    background-color: rgb(136,139,139);
-    color:hsl(36, 100%, 99%);
-    padding: 10px;
-    text-align: center;
+.subtitle h3{
+   width: 284px;
+   height: 38px;
+   margin-bottom: 50px;
+   margin-left: 235px;
 }
 .btn2{
     display: inline-block;
-   margin-bottom: 100px;
+   margin-bottom: 120px;
     background-color: rgb(68,40,237);
     padding: 10px;
     text-align: center;
     color: hsl(36, 100%, 99%);
+    margin-left: 80%;
 }
 .btn2 :hover {
    background-color:hsl(5, 85%, 63%) ; 
 }
-.right img{
-    margin-left: 80%;
-    margin-bottom: 10%;
-}
-.left{
-    flex: 1
-}
-.right{
-    flex: 1;
-}
-.left{
-    margin-left: 150px;
-}
-.main-description{
-    font-size: 42px;
-}
-.title-complete{
-    font-size: 24px;
-    margin-left: 170px;
-}
-.container-subtitle p{
-    margin-top: 30px;
-    margin-left: 140px;
-    margin-bottom: 300px;
-    font-size: 20px;
-    font-style: italic;
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-    
-}
+
